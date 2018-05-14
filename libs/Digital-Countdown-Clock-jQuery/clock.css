@@ -1,0 +1,52 @@
+.recommend__clock {
+    /*padding: 10px;
+    text-align: center;*/
+    padding-top: 15px;
+  }
+  
+  .recommend__clock .timer-wrapper {
+    display: inline-block;
+    width: 100px;
+    margin-right: 24px;
+    height: 80px;
+  }
+  .recommend__clock .timer-wrapper .time {
+    font-weight: bold;
+    color: #2c2c2c;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    background: rgba(0,0,0,0.07);
+  }
+  
+  .recommend__clock .timer-wrapper .text {
+    font-size: 18px;
+    color: #7a7a7a;
+    font-weight: 300;
+    text-align: left;
+  }
+  @media screen and (max-width: 526px) {
+  .recommend__clock .timer-wrapper {
+    display: inline-block;
+    width: 80px;
+    margin-right: 19.2px;
+    height: 64px;
+  }
+  .recommend__clock .timer-wrapper .time {
+    font-weight: bold;
+    color: #2c2c2c;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 46px;
+    /*background: none;*/
+  }
+  
+  .recommend__clock .timer-wrapper .text {
+    font-size: 16px;
+    color: #7a7a7a;
+    font-weight: 300;
+    text-align: center;
+  }
+  }
